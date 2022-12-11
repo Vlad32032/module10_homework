@@ -1,0 +1,26 @@
+.button_wrapper {
+    width: 300px;
+    height: 275px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.button {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 18px;
+    background-color: rgba(55, 157, 252, 0.781);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(1.03);
+}
